@@ -1,15 +1,18 @@
 using System;
 
-namespace Solve {
+namespace Solve 
+{
 
-   class CelsiusToFahrenheit {
+   class CelsiusToFahrenheit 
+   {
 
-      static void Main(string[] args) {
+      static void Main(string[] args) 
+      {
 
          double fahrenheit;
          double celsius;
          string input;
-         Console.WriteLine("Enter temperature in Celsius");
+         Console.WriteLine("Enter temperature");
          input = Console.ReadLine();
                  
              celsius = Convert.ToDouble(input);
